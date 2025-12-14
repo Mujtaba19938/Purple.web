@@ -7,7 +7,6 @@ export const PAYMENT_FREQUENCIES = ["monthly", "yearly"]
 
 export const TIERS: PricingTier[] = [
   {
-    id: "individuals",
     name: "Individuals",
     price: {
       monthly: "Free",
@@ -24,7 +23,6 @@ export const TIERS: PricingTier[] = [
     cta: "Get started",
   },
   {
-    id: "teams",
     name: "Teams",
     price: {
       monthly: 90,
@@ -42,7 +40,6 @@ export const TIERS: PricingTier[] = [
     popular: true,
   },
   {
-    id: "organizations",
     name: "Organizations",
     price: {
       monthly: 120,
@@ -59,7 +56,6 @@ export const TIERS: PricingTier[] = [
     cta: "Get started",
   },
   {
-    id: "enterprise",
     name: "Enterprise",
     price: {
       monthly: "Custom",
